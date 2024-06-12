@@ -16,7 +16,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/api/signup-user", payload)
+      .post("https://authentication-backend-hsxr.onrender.com/api/signup-user", payload)
       .then((res) => {
         toast.success(res.data.message);
 

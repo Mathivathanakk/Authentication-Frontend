@@ -13,7 +13,7 @@ const ForgetPassword = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/forgot-password",
+        "https://authentication-backend-hsxr.onrender.com/api/forgot-password",
         { email }
       );
       if (response.status === 200) {

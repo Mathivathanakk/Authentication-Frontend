@@ -12,7 +12,7 @@ const Home = ({ token }) => {
   }, []);
   const fetchdata = async () => {
     await axios
-      .get("http://localhost:5000/api/get-user", {
+      .get("https://authentication-backend-hsxr.onrender.com/api/get-user", {
         headers: { Authorization: token },
       })
       .then((res) => {

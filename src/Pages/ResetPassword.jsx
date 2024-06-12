@@ -14,7 +14,7 @@ const ResetPassword = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `http://localhost:5000/api/reset-password/${id}/${token}`,
+        `https://authentication-backend-hsxr.onrender.com/api/reset-password/${id}/${token}`,
         { password }
       );
       if (response.status === 200) {
