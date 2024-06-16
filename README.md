@@ -15,3 +15,6 @@
 ## Deployed Url
 
 https://authentication-frontend-taupe.vercel.app/
+
+#### Note: 
+I changed my backend link due to some problems..
